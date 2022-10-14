@@ -58,13 +58,9 @@ Downloading and Installing all the Software. I referred to the above-mentioned y
             So for this, the steps are as follows:
             1. Install Arm GCC Compiler using the following link or the link given above under installed software 
                 https://developer.arm.com/downloads/-/gnu-rm
-                
                 <img width="943" alt="1" src="https://user-images.githubusercontent.com/114259992/195955516-2d2c880b-1428-4400-812b-325c707c0276.png">
-                
                 Just open it, select preferred language and then install.
-                 
                 <img width="371" alt="2" src="https://user-images.githubusercontent.com/114259992/195955618-06bc8ee8-8367-44e4-9a40-90870c4dcb44.png">
-                
                 Before clicking Finish Installation at the end. Make sure **Add Path to Environment Variables** option is also selected as by default ususally it's not. 
                 <img width="373" alt="3" src="https://user-images.githubusercontent.com/114259992/195955586-e52447ce-ac57-4b60-8cbd-f27a397cc99c.png">
 
