@@ -56,8 +56,7 @@ Download all the required files. For that, I followed Chapter **9.2 Building on 
 ##Step 2 :
 Downloading and Installing all the Software. I referred to the above-mentioned youtube video in the resources for the same. 
             So for this, the steps are as follows:
-            
-             1. Install Arm GCC Compiler using the following link or the link given above under installed software 
+            1. Install Arm GCC Compiler using the following link or the link given above under installed software 
                 https://developer.arm.com/downloads/-/gnu-rm
                 
                 <img width="943" alt="1" src="https://user-images.githubusercontent.com/114259992/195955516-2d2c880b-1428-4400-812b-325c707c0276.png">
