@@ -10,11 +10,11 @@
 ##Installed Software List:
 
 Arm GCC Compiler               :    https://developer.arm.com/downloads/-/gnu-rm
-CMake Software                 :    https://cmake.org/download/
-The C++ build tools for VS     :    https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019
-Python 3                       :    https://www.python.org/downloads/windows/
 Git                            :    https://git-scm.com/download/win
+CMake Software                 :    https://cmake.org/download/
 Visual Studio Code             :    https://code.visualstudio.com/Download
+Python 3                       :    https://www.python.org/downloads/windows/
+The C++ build tools for VS     :    https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019
 
 
 ##Resources:
@@ -59,13 +59,30 @@ Downloading and Installing all the Software. I referred to the above-mentioned y
              1. Install Arm GCC Compiler using the following link or the link given above under installed software 
                 https://developer.arm.com/downloads/-/gnu-rm
                 
-                Just open it, select preferred language and then install. 
+                <img width="943" alt="1" src="https://user-images.githubusercontent.com/114259992/195955516-2d2c880b-1428-4400-812b-325c707c0276.png">
                 
-                Before clicking Finish Installation at the end. Make sure that th option is also selected as by default ususally it's not. 
+                Just open it, select preferred language and then install.
+                 
+                <img width="371" alt="2" src="https://user-images.githubusercontent.com/114259992/195955618-06bc8ee8-8367-44e4-9a40-90870c4dcb44.png">
                 
-                
-    
+                Before clicking Finish Installation at the end. Make sure **Add Path to Environment Variables** option is also selected as by default ususally it's not. 
+                <img width="373" alt="3" src="https://user-images.githubusercontent.com/114259992/195955586-e52447ce-ac57-4b60-8cbd-f27a397cc99c.png">
 
+             2. Install Git using the following link or the link above
+             
+                <img width="791" alt="4" src="https://user-images.githubusercontent.com/114259992/195956083-44161144-1d06-4bf2-9e45-c487ac6508ff.png">
+                
+                Select where to Install Git, then change the deafault editor according to your preference. 
+                
+                <img width="362" alt="5" src="https://user-images.githubusercontent.com/114259992/195957404-a0967b3c-364a-41d6-99e4-a6e7e7d951ba.png">
+                
+                Then let Git decide the branch name for the inital branch in new repositories. Then choose the recommended option Git from the Command line and also 3rd party software. Then use all the default options like use the open SSL Library, Use MinTTY. Then use Checkout as-is, commit as-is option rather than the default so that no conversions are performed by Git while checking text files. 
+                
+                <img width="368" alt="6" src="https://user-images.githubusercontent.com/114259992/195957380-eb0608d4-d590-4c00-bd7b-d481172738ab.png">
+                
+                3. Install CMake 
+ 
+    
 ##Quirks encountered:
 I first tried to install WSL, I even referred to Arnav Ganfhu work. But I was getting an error while installing WSL. The first error I got while installing was This action requires elevation. That can be resolved by using Command Prompt at the administrative level. Then I got a new error. I followed a few links to try to resolve it like:               
 But as I was not able to Install WSL, I decided to use Windows and VS Code instead. 
