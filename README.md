@@ -34,7 +34,7 @@ https://github.com/raspberrypi/pico-sdk
 
 ## Introduction to RP2040
 The Datasheet is a good way to gain more knowledge about RP2040 if it's new for you. <br> 
-RP2040 is a high-performance microcontroller device. which is affordable with a price range of 4$ (Raspberry pi 2040 Pico) and 9.95$ (Adafruit QTPy 2040). For this setup, we will be using the Adafruit QTPy 2040. <br>
+RP2040 is a high-performance microcontroller device. which is affordable with a price range of 4$ (Raspberry pi 2040 Pico) and 9.95$ (Adafruit QT Py 2040). For this setup, we will be using the Adafruit QT Py 2040. <br>
 
 You can check out the prices using the following links:<br>
 Adafruit QTPy 2040:  https://www.adafruit.com/product/4900?gclid=CjwKCAjwkaSaBhA4EiwALBgQaOmjnHcdEo4q9H4MoJQDE_jhDx9zxB4jheQuGPh3GJivzcsChdSn-RoCLWMQAvD_BwE <br>
