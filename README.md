@@ -8,13 +8,14 @@
 
 ## Installed Software List:
 
-Arm GCC Compiler              :    https://developer.arm.com/downloads/-/gnu-rm  <br />
-Git                           :    https://git-scm.com/download/win <br />
-CMake Software                :    https://cmake.org/download/ <br />
-Visual Studio Code            :    https://code.visualstudio.com/Download <br />
-Python 3                      :    https://www.python.org/downloads/windows/ <br />
+Arm GCC Compiler              :    https://developer.arm.com/downloads/-/gnu-rm/  <br>
+Git                           :    https://git-scm.com/download/win/ <br >
+CMake Software                :    https://cmake.org/download/ <br >
+Visual Studio Code            :    https://code.visualstudio.com/Download/ <br >
+Python 3                      :    https://www.python.org/downloads/windows/ <br >
 The C++ build tools for VS    :    https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019 <br />
 Putty                         :    https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html <br />
+C/C++ MinGW Compiler          :    https://www.mingw-w64.org/downloads/ <br>
 
 
 ## Resources:
@@ -108,6 +109,8 @@ So for this, the steps are as follows:
   7. Install Putty from this site as given in the link above. <br>
                   
       <img width="940" alt="12" src="https://user-images.githubusercontent.com/114259992/195959013-a8bc813d-14e1-4b03-adef-31cd21d1e857.png">
+  
+  8. Install C/C++ MinGW Compiler using the link given in the resources
 
 ### Step 2 :
 
@@ -135,14 +138,24 @@ To do that we will perform the following instructions in command prompt: <br>
  1. In windows path we will add PICO_SDK_PATH. To do so we need to search Edit Environmental Variables. Then we will **add the path** as given below:
     
   <img width="435" alt="15" src="https://user-images.githubusercontent.com/114259992/195966047-96fa4f21-cc43-4e7d-a37e-f158abcb682b.png">
+  
+ 2. We will use the following command to generate CMake Files 
 
 ```
-
+     cd pico-examples
+     mkdir build
+     cd build
+     cmake .. -G 'MinGW Makefiles'
+```
+ 3. Now we will build hello_world to get a .uf2 file 
+```
+     cd hello_world/usb
+     mingw32-make -j6
 ```
 
 ### Step 4: Run in PuTTY
 
-1. After step 3 one .uf2 file will be created. We need to drag the .uf2 file in the RP2040 folder called **RP1-RP2 (E:)** <br>
+1. After step 3, a .uf2 file will be created. We need to drag the .uf2 file in the RP2040 folder called **RP1-RP2 (E:)** <br>
 2. Open device manager to check the Port, if the **Ports** option is not available. Go to **view** and then **show hidden devices**.<br>
 3. Check the port, here it's **COM7** <br>
 
