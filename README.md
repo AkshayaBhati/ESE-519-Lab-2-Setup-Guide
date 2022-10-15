@@ -124,7 +124,7 @@ So for this, the steps are as follows:
 Now we have to clone the pico-sdk and the pico-examples git respositories as given in the resources.<br>
 To do that we will perform the following instructions in command prompt: <br>
 1. We will create a folder named pico using **mkdir pico**
-2. Then we will clone the pico-sdk Repository in this pico folder using **git clone -b master https://github.com/raspberrypi/pico-sdk.git** 
+2. Then we will clone the pico-sdk Repository in this pico folder.
 
 ``` 
     mkdir pico  
@@ -146,14 +146,15 @@ To do that we will perform the following instructions in command prompt: <br>
 
 ```
 
-### Step 4: Run in Putty
+### Step 4: Run in PuTTY
 
-1. Open device manager to check the Port, if the **port** option is not available. Go to **view** and then **show hidden devices**.<br>
-2. Check the port, here it's **COM7** <br>
+1. After step 3 one .uf2 file will be created. We need to drag the .uf2 file in the RP2040 folder called **RP1-RP2 (E:)** <br>
+2. Open device manager to check the Port, if the **Ports** option is not available. Go to **view** and then **show hidden devices**.<br>
+3. Check the port, here it's **COM7** <br>
 
   <img width="571" alt="device manager" src="https://user-images.githubusercontent.com/114259992/195964556-fe7a210d-5fac-459d-a794-307248509ee9.png"> <br>
   
-3. Now we will run the code through putty so that we can see the output in the terminal. So we need to change the serial line according to our device manager. Here it's **COM7** <br>
+3. Now we will run the code through PuTTY so that we can see the output in the terminal. So we need to change the serial line according to our device manager. Here it's **COM7** <br>
 
 <img width="334" alt="putty" src="https://user-images.githubusercontent.com/114259992/195964959-4f2b02ab-8ae7-4b5a-b133-01005ae7f6c4.png">
 
