@@ -26,7 +26,7 @@ https://datasheets.raspberrypi.com/rp2040-datasheet.pdf
 **Getting Started with Pico Guide**
 https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
 
-**pico-example Repository**
+**pico-examples Repository**
 https://github.com/raspberrypi/pico-examples
 
 **pico-sdk Repository**
@@ -118,13 +118,10 @@ I referred to the above-mentioned youtube video in the resources for the same.
 ### Step 2 :
 
 Now we have to clone the pico-sdk and the pico-examples git respositories as given in the resources.<br>
-To do that we will 
-The pico-examples repository (https://github.com/raspberrypi/pico-examples) provides a set of example applications that are written using the pico-sdk (https://github.com/raspberrypi/pico-sdk). To clone these repositories start by creating a pico directory to keep all pico related checkouts in. These instructions create a pico directory at /home/pi/pico. $ cd ~/ $ mkdir pico $ cd pico Then clone the pico-sdk and pico-examples git repositories.
-Pico C/C++ SDK <br>
-https://github.com/raspberrypi/pico-sdk <br>
+To do that we will perform the following instructions in command prompt:
 
-Pico C/C++ SDK Examples <br>
-https://github.com/raspberrypi/pico-examples <br>
+ To clone these repositories start by creating a pico directory to keep all pico related checkouts in. These instructions create a pico directory at /home/pi/pico. $ cd ~/ $ mkdir pico $ cd pico Then clone the pico-sdk and pico-examples git repositories.
+Pico C/C++ SDK <br>
 
 ### Step 3: built the Hello World file
 
