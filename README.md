@@ -126,7 +126,8 @@ To do that we will perform the following instructions in command prompt: <br>
 1. We will create a folder named pico using **mkdir pico**
 2. Then we will clone the pico-sdk Repository in this pico folder using **git clone -b master https://github.com/raspberrypi/pico-sdk.git** 
 
->mkdir pico
+>mkdir pico  <br>
+
 >git clone -b master https://github.com/raspberrypi/pico-sdk.git
 
  To clone these repositories start by creating a pico directory to keep all pico related checkouts in. These instructions create a pico directory at /home/pi/pico. $ cd ~/ $ mkdir pico $ cd pico Then clone the pico-sdk and pico-examples git repositories.
