@@ -89,8 +89,6 @@ So for this, the steps are as follows:
                 
   4. Install Visual Studio Code if you don't already have it <br>
                 
-      <img width="917" alt="9" src="https://user-images.githubusercontent.com/114259992/195958223-23101c85-5b9a-4350-90a0-07878fdcd696.png">
-                  
   5. Install Python 3 by downloading the python installer <br>
                   
      Select the option **Add Python 3.11 to PATH** <br>
@@ -133,6 +131,10 @@ To do that we will perform the following instructions in command prompt: <br>
 ```
 
 ### Step 3: built the Hello World file
+
+ 1. In windows path we will add PICO_SDK_PATH. To do so we need to search Edit Environmental Variables. Then we will **add the path** as given below:
+    
+  <img width="435" alt="15" src="https://user-images.githubusercontent.com/114259992/195966047-96fa4f21-cc43-4e7d-a37e-f158abcb682b.png">
 
 ```
 
