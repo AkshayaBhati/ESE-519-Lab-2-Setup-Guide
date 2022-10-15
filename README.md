@@ -127,8 +127,8 @@ To do that we will perform the following instructions in command prompt: <br>
 2. Then we will clone the pico-sdk Repository in this pico folder using **git clone -b master https://github.com/raspberrypi/pico-sdk.git** 
 
 ``` 
-   >mkdir pico  <br>
-   >cd pico <br>
+   >mkdir pico  
+   >cd pico 
    >git clone -b master https://github.com/raspberrypi/pico-sdk.git
    >cd pico-sdk
    >git submodule update --init
