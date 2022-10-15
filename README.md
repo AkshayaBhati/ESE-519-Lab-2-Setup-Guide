@@ -127,14 +127,22 @@ To do that we will perform the following instructions in command prompt: <br>
 2. Then we will clone the pico-sdk Repository in this pico folder using **git clone -b master https://github.com/raspberrypi/pico-sdk.git** 
 
 ``` 
-mkdir pico  <br>
-
-   git clone -b master https://github.com/raspberrypi/pico-sdk.git
+   >mkdir pico  <br>
+   >cd pico <br>
+   >git clone -b master https://github.com/raspberrypi/pico-sdk.git
+   >cd pico-sdk
+   >git submodule update --init
 ```
- To clone these repositories start by creating a pico directory to keep all pico related checkouts in. These instructions create a pico directory at /home/pi/pico. $ cd ~/ $ mkdir pico $ cd pico Then clone the pico-sdk and pico-examples git repositories.
-Pico C/C++ SDK <br>
+3. Then we will clone pico-examples Repository
+
+```
+   >cd .. 
+   >git clone -b master https://github.com/raspberrypi/pico-examples.git
+```
 
 ### Step 3: built the Hello World file
+
+
 
 ### Step 4: Run in Putty
     
