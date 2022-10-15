@@ -9,13 +9,13 @@
 
 ##Installed Software List:
 
-Arm GCC Compiler               :    https://developer.arm.com/downloads/-/gnu-rm
-Git                            :    https://git-scm.com/download/win
-CMake Software                 :    https://cmake.org/download/
-Visual Studio Code             :    https://code.visualstudio.com/Download
-Python 3                       :    https://www.python.org/downloads/windows/
-The C++ build tools for VS     :    https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019
-Putty                          :    https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+Arm GCC Compiler &nbsp              :    https://developer.arm.com/downloads/-/gnu-rm
+Git              &nbsp              :    https://git-scm.com/download/win
+CMake Software    &nbsp             :    https://cmake.org/download/
+Visual Studio Code  &nbsp           :    https://code.visualstudio.com/Download
+Python 3         &nbsp              :    https://www.python.org/downloads/windows/
+The C++ build tools for VS &nbsp    :    https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019
+Putty        &nbsp                  :    https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 
 ##Resources:
@@ -51,9 +51,7 @@ Raspberry pi 2040 Pico: https://www.seeedstudio.com/Raspberry-Pi-Pico-p-4832.htm
 
 ##Setup Steps:
 
-###Step 1 :
-Download all the example files given in 
-##Step 2 :
+##Step 1 :
 Downloading and Installing all the Software.  For that, I followed Chapter **9.2 Building on MS Windows** of the Getting started with Pico Guide.
 I referred to the above-mentioned youtube video in the resources for the same. 
             So for this, the steps are as follows:
@@ -113,7 +111,13 @@ I referred to the above-mentioned youtube video in the resources for the same.
                   7. Install Putty from this site as given in the link above. 
                   
                   <img width="940" alt="12" src="https://user-images.githubusercontent.com/114259992/195959013-a8bc813d-14e1-4b03-adef-31cd21d1e857.png">
-##Step 3: 
+
+###Step 2 :
+Download all the example files given in 
+
+##Step 3: built the Hello World file
+
+##Step 4: Run in Putty
     
 ##Quirks encountered:
 I first tried to install WSL, I even referred to Arnav Ganfhu work. But I was getting an error while installing WSL. The first error I got while installing was This action requires elevation. That can be resolved by using Command Prompt at the administrative level. Then I got a new error. I followed a few links to try to resolve it like:               
