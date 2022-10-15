@@ -7,7 +7,7 @@
 ### Processor:
 ### Laptop Model:
 
-##Installed Software List:
+## Installed Software List:
 
 Arm GCC Compiler              :    https://developer.arm.com/downloads/-/gnu-rm  <br />
 Git                           :    https://git-scm.com/download/win <br />
@@ -18,7 +18,7 @@ The C++ build tools for VS    :    https://visualstudio.microsoft.com/downloads/
 Putty                         :    https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html <br />
 
 
-##Resources:
+## Resources:
 The following resources were really helpful while setting up QT Py RP2040 in Windows 11
 
 **The RP2040 Datasheet**
@@ -30,7 +30,7 @@ https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
 **Installing** 
 https://www.youtube.com/watch?v=mUF9xjDtFfY
 
-##Introduction to RP2040
+## Introduction to RP2040
 The Datasheet is a good way to gain more knowledge about RP2040 if it's new for you. 
 RP2040 is a high-performance microcontroller device. which is affordable with a price range of 4$ (Raspberry pi 2040 Pico) and 9.95$ (Adafruit QTPy 2040). For this setup, we will be using the Adafruit QTPy 2040. 
 You can check out the prices using the following links:
@@ -49,9 +49,9 @@ Raspberry pi 2040 Pico: https://www.seeedstudio.com/Raspberry-Pi-Pico-p-4832.htm
 • To generate core clocks and USB, 2 on-chip PLLs
 • Peripherals: I2C controllers **2**, UARTs **2**, PWM channels **16**, SPI controllers **2**, PIO state machines **8**
 
-##Setup Steps:
+## Setup Steps:
 
-##Step 1 :
+### Step 1 :
 Downloading and Installing all the Software.  For that, I followed Chapter **9.2 Building on MS Windows** of the Getting started with Pico Guide.
 I referred to the above-mentioned youtube video in the resources for the same. 
             So for this, the steps are as follows:
@@ -112,16 +112,16 @@ I referred to the above-mentioned youtube video in the resources for the same.
                   
                   <img width="940" alt="12" src="https://user-images.githubusercontent.com/114259992/195959013-a8bc813d-14e1-4b03-adef-31cd21d1e857.png">
 
-###Step 2 :
+### Step 2 :
 Download all the example files given in 
 
-##Step 3: built the Hello World file
+### Step 3: built the Hello World file
 
-##Step 4: Run in Putty
+### Step 4: Run in Putty
     
-##Quirks encountered:
+### Quirks encountered:
 I first tried to install WSL, I even referred to Arnav Ganfhu work. But I was getting an error while installing WSL. The first error I got while installing was This action requires elevation. That can be resolved by using Command Prompt at the administrative level. Then I got a new error. I followed a few links to try to resolve it like:               
 But as I was not able to Install WSL, I decided to use Windows and VS Code instead. 
 
 
-##Tips:
+### Tips:
