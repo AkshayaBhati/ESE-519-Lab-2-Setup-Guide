@@ -62,9 +62,7 @@ Downloading and Installing all the Software. For that, I referred to Chapter **9
 So for this, the steps are as follows: 
   1. Install Arm GCC Compiler using the following link or the link given above under installed software <br>
      https://developer.arm.com/downloads/-/gnu-rm <br>
-                
-      <img width="943" alt="1" src="https://user-images.githubusercontent.com/114259992/195955516-2d2c880b-1428-4400-812b-325c707c0276.png">
-                
+  
      Just open it, select your preferred language, and then install it.<br>
                 
       <img width="371" alt="2" src="https://user-images.githubusercontent.com/114259992/195955618-06bc8ee8-8367-44e4-9a40-90870c4dcb44.png">
@@ -74,9 +72,7 @@ So for this, the steps are as follows:
       <img width="373" alt="3" src="https://user-images.githubusercontent.com/114259992/195955586-e52447ce-ac57-4b60-8cbd-f27a397cc99c.png">
                 
   2. Install Git using the following link or the link above <br>
-             
-      <img width="791" alt="4" src="https://user-images.githubusercontent.com/114259992/195956083-44161144-1d06-4bf2-9e45-c487ac6508ff.png">
-             
+                   
      Select where to Install Git, then change the default editor according to your preference. 
                 
       <img width="362" alt="5" src="https://user-images.githubusercontent.com/114259992/195957404-a0967b3c-364a-41d6-99e4-a6e7e7d951ba.png">
@@ -86,8 +82,6 @@ So for this, the steps are as follows:
       <img width="368" alt="6" src="https://user-images.githubusercontent.com/114259992/195957380-eb0608d4-d590-4c00-bd7b-d481172738ab.png">
                 
   3. Install CMake <br>
-                
-      <img width="817" alt="7" src="https://user-images.githubusercontent.com/114259992/195957901-0f8ad9b3-85d1-4403-85d0-4821569ac726.png">
                  
      Add CMake for the system path for all users rest let it be the same as the default. <br>
                 
@@ -98,8 +92,6 @@ So for this, the steps are as follows:
       <img width="917" alt="9" src="https://user-images.githubusercontent.com/114259992/195958223-23101c85-5b9a-4350-90a0-07878fdcd696.png">
                   
   5. Install Python 3 by downloading the python installer <br>
-                  
-      <img width="919" alt="10" src="https://user-images.githubusercontent.com/114259992/195958707-e56f0680-9e62-4e23-9066-f4046d47fe70.png">
                   
      Select the option **Add Python 3.11 to PATH** <br>
                   
