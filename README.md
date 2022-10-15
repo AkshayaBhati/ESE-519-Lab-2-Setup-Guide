@@ -15,6 +15,7 @@ CMake Software                 :    https://cmake.org/download/
 Visual Studio Code             :    https://code.visualstudio.com/Download
 Python 3                       :    https://www.python.org/downloads/windows/
 The C++ build tools for VS     :    https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019
+Putty                          :    https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 
 ##Resources:
@@ -51,21 +52,21 @@ Raspberry pi 2040 Pico: https://www.seeedstudio.com/Raspberry-Pi-Pico-p-4832.htm
 ##Setup Steps:
 
 ###Step 1 :
-Download all the required files. For that, I followed Chapter **9.2 Building on MS Windows** of the Getting started with Pico Guide.
-
+Download all the example files given in 
 ##Step 2 :
-Downloading and Installing all the Software. I referred to the above-mentioned youtube video in the resources for the same. 
+Downloading and Installing all the Software.  For that, I followed Chapter **9.2 Building on MS Windows** of the Getting started with Pico Guide.
+I referred to the above-mentioned youtube video in the resources for the same. 
             So for this, the steps are as follows:
             1. Install Arm GCC Compiler using the following link or the link given above under installed software 
                 https://developer.arm.com/downloads/-/gnu-rm
                 
                 <img width="943" alt="1" src="https://user-images.githubusercontent.com/114259992/195955516-2d2c880b-1428-4400-812b-325c707c0276.png">
                 
-                Just open it, select preferred language and then install.
+                Just open it, select your preferred language, and then install it.
                 
                 <img width="371" alt="2" src="https://user-images.githubusercontent.com/114259992/195955618-06bc8ee8-8367-44e4-9a40-90870c4dcb44.png">
                 
-                Before clicking Finish Installation at the end. Make sure **Add Path to Environment Variables** option is also selected as by default ususally it's not.
+                Before clicking Finish Installation at the end. Make sure the **Add Path to Environment Variables** option is also selected by default usually it's not.
                 
                 <img width="373" alt="3" src="https://user-images.githubusercontent.com/114259992/195955586-e52447ce-ac57-4b60-8cbd-f27a397cc99c.png">
                 
@@ -73,16 +74,46 @@ Downloading and Installing all the Software. I referred to the above-mentioned y
              
                 <img width="791" alt="4" src="https://user-images.githubusercontent.com/114259992/195956083-44161144-1d06-4bf2-9e45-c487ac6508ff.png">
              
-                Select where to Install Git, then change the deafault editor according to your preference. 
+                Select where to Install Git, then change the default editor according to your preference. 
                 
                 <img width="362" alt="5" src="https://user-images.githubusercontent.com/114259992/195957404-a0967b3c-364a-41d6-99e4-a6e7e7d951ba.png">
                 
-                Then let Git decide the branch name for the inital branch in new repositories. Then choose the recommended option Git from the Command line and also 3rd party software. Then use all the default options like use the open SSL Library, Use MinTTY. Then use Checkout as-is, commit as-is option rather than the default so that no conversions are performed by Git while checking text files. 
+                Then let Git decide the branch name for the initial branch in new repositories. Then choose the recommended option Git from the Command line and also 3rd party software. Then use all the default options like use the open SSL Library, Use MinTTY. Then use the Checkout as-is, commit as-is option rather than the default so that no conversions are performed by Git while checking text files. 
                 
                 <img width="368" alt="6" src="https://user-images.githubusercontent.com/114259992/195957380-eb0608d4-d590-4c00-bd7b-d481172738ab.png">
                 
                 3. Install CMake 
- 
+                
+                <img width="817" alt="7" src="https://user-images.githubusercontent.com/114259992/195957901-0f8ad9b3-85d1-4403-85d0-4821569ac726.png">
+                 
+                Add CMake for the system path for all users rest let it be the same as the default. 
+                
+                <img width="380" alt="8" src="https://user-images.githubusercontent.com/114259992/195958057-5ce84d2e-6571-43d9-8132-3ee02e4f0c6a.png">
+                
+                4. Install Visual Studio Code if you don't already have it 
+                
+                  <img width="917" alt="9" src="https://user-images.githubusercontent.com/114259992/195958223-23101c85-5b9a-4350-90a0-07878fdcd696.png">
+                  
+                  5. Install Python 3 by downloading the python installer 
+                  
+                  <img width="919" alt="10" src="https://user-images.githubusercontent.com/114259992/195958707-e56f0680-9e62-4e23-9066-f4046d47fe70.png">
+                  
+                  Select the option **Add Python 3.11 to PATH**
+                  
+                  <img width="486" alt="11" src="https://user-images.githubusercontent.com/114259992/195958775-395a66c5-fa0a-4217-b483-d49facc1c0e6.png">
+                  
+                  6. Install The C++ build tools for VS 
+                  Scroll to the bottom to find the option to download it. 
+                  <img width="899" alt="13" src="https://user-images.githubusercontent.com/114259992/195959258-5fcddf71-0b2f-44c5-8755-471552083a9b.png">
+                  
+                  Select the C++ Build tools option while installing and then install it. 
+                  <img width="704" alt="14" src="https://user-images.githubusercontent.com/114259992/195959346-98425072-0fc0-4b43-8b55-ba36edaa858c.png">
+
+
+                  7. Install Putty from this site as given in the link above. 
+                  
+                  <img width="940" alt="12" src="https://user-images.githubusercontent.com/114259992/195959013-a8bc813d-14e1-4b03-adef-31cd21d1e857.png">
+##Step 3: 
     
 ##Quirks encountered:
 I first tried to install WSL, I even referred to Arnav Ganfhu work. But I was getting an error while installing WSL. The first error I got while installing was This action requires elevation. That can be resolved by using Command Prompt at the administrative level. Then I got a new error. I followed a few links to try to resolve it like:               
