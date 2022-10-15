@@ -9,13 +9,13 @@
 
 ##Installed Software List:
 
-Arm GCC Compiler &nbsp              :    https://developer.arm.com/downloads/-/gnu-rm
-Git              &nbsp              :    https://git-scm.com/download/win
-CMake Software    &nbsp             :    https://cmake.org/download/
-Visual Studio Code  &nbsp           :    https://code.visualstudio.com/Download
-Python 3         &nbsp              :    https://www.python.org/downloads/windows/
-The C++ build tools for VS &nbsp    :    https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019
-Putty        &nbsp                  :    https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+Arm GCC Compiler              :    https://developer.arm.com/downloads/-/gnu-rm  <br />
+Git                           :    https://git-scm.com/download/win <br />
+CMake Software                :    https://cmake.org/download/ <br />
+Visual Studio Code            :    https://code.visualstudio.com/Download <br />
+Python 3                      :    https://www.python.org/downloads/windows/ <br />
+The C++ build tools for VS    :    https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019 <br />
+Putty                         :    https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html <br />
 
 
 ##Resources:
