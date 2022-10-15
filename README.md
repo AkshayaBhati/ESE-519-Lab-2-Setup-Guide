@@ -32,21 +32,22 @@ https://www.youtube.com/watch?v=mUF9xjDtFfY
 ## Introduction to RP2040
 The Datasheet is a good way to gain more knowledge about RP2040 if it's new for you. <br> 
 RP2040 is a high-performance microcontroller device. which is affordable with a price range of 4$ (Raspberry pi 2040 Pico) and 9.95$ (Adafruit QTPy 2040). For this setup, we will be using the Adafruit QTPy 2040. <br>
+
 You can check out the prices using the following links:<br>
 Adafruit QTPy 2040:  https://www.adafruit.com/product/4900?gclid=CjwKCAjwkaSaBhA4EiwALBgQaOmjnHcdEo4q9H4MoJQDE_jhDx9zxB4jheQuGPh3GJivzcsChdSn-RoCLWMQAvD_BwE <br>
 Raspberry pi 2040 Pico: https://www.seeedstudio.com/Raspberry-Pi-Pico-p-4832.html?gclid=CjwKCAjwkaSaBhA4EiwALBgQaOLM-ngyliXnJmNtwO_3_M5T1HyQ3RY6-jMKIX6E3jxdE7TcRvVEFBoCEPsQAvD_BwE <br>
 
-*Key features of RP2040 are listed below:*
-• Dual ARM Cortex-M0+ @ 133MHz
-• In six independent banks 264kB on-chip SRAM 
-• DMA controller
-• AHB crossbar Fully-connected 
-• 30 GPIO pins, 4 of which have analog inputs
-• peripherals for Interpolator and integer divider
-• Support for up to 16MB of off-chip Flash memory via a dedicated QSPI bus
-• To generate core voltage On-chip programmable LDO 
-• To generate core clocks and USB, 2 on-chip PLLs
-• Peripherals: I2C controllers **2**, UARTs **2**, PWM channels **16**, SPI controllers **2**, PIO state machines **8**
+*Key features of RP2040 are listed below:* <br>
+• Dual ARM Cortex-M0+ @ 133MHz <br>
+• In six independent banks 264kB on-chip SRAM <br>
+• DMA controller <br>
+• AHB crossbar Fully-connected <br> 
+• 30 GPIO pins, 4 of which have analog inputs <br>
+• peripherals for Interpolator and integer divider <br>
+• Support for up to 16MB of off-chip Flash memory via a dedicated QSPI bus <br>
+• To generate core voltage On-chip programmable LDO <br>
+• To generate core clocks and USB, 2 on-chip PLLs <br>
+• Peripherals: I2C controllers **2**, UARTs **2**, PWM channels **16**, SPI controllers **2**, PIO state machines **8** <br>
 
 ## Setup Steps:
 
