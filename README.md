@@ -170,8 +170,13 @@ To do that we will perform the following instructions in command prompt: <br>
   <img width="494" alt="Hello World" src="https://user-images.githubusercontent.com/114259992/195965076-a76f2aa2-6450-43cf-82bb-2f2554ea2c1e.png">
 
 ### Quirks encountered:
-I first tried to install WSL, I even referred to Arnav Ganfhu work. But I was getting an error while installing WSL. The first error I got while installing was This action requires elevation. That can be resolved by using Command Prompt at the administrative level. Then I got a new error. I followed a few links to try to resolve it like:               
-But as I was not able to Install WSL, I decided to use Windows and VS Code instead. 
+I first tried to install WSL. But I was getting the following error while installing WSL
 
+```
+Installing: Virtual Machine Platform
+An unrecoverable error occurred during installation. Component: 'Virtual Machine Platform' Error Code: 0x80073701
+The referenced assembly could not be found.
+```
 
 ### Tips:
+I would recommend using Windows and VS code. 
