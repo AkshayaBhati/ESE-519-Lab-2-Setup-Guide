@@ -1,10 +1,10 @@
 # ESE-519-Lab-2-Setup-Guide
  **We will set up our Laptop/PC for Adafruit QT Py 2040 using the official C/C++ SDK. Afterward, we will compile and run example code like "Hello World"**
 ## Machine Details
-### OS:
-### OS Version:
-### Processor:
-### Laptop Model:
+### OS: Windows
+### OS Version: Windows 11
+### Processor: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz   2.42 GHz
+### Laptop Model: HP Pavilion Laptop 14-dv0xxx
 
 ## Installed Software List:
 
