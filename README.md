@@ -58,8 +58,7 @@ Raspberry pi 2040 Pico: https://www.seeedstudio.com/Raspberry-Pi-Pico-p-4832.htm
 ## Setup Steps:
 
 ### Step 1 :
-Downloading and Installing all the Software.  For that, I followed Chapter **9.2 Building on MS Windows** of the Getting started with Pico Guide.
-I referred to the above-mentioned youtube video in the resources for the same. 
+Downloading and Installing all the Software.  For that, I referred to Chapter **9.2 Building on MS Windows** of the Getting started with Pico Guide available in the resources. 
             So for this, the steps are as follows:
             1. Install Arm GCC Compiler using the following link or the link given above under installed software 
                 https://developer.arm.com/downloads/-/gnu-rm
