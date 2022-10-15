@@ -142,9 +142,19 @@ To do that we will perform the following instructions in command prompt: <br>
 
 ### Step 3: built the Hello World file
 
+```
 
+```
 
 ### Step 4: Run in Putty
+
+1. Open device manager to check the Port, if the port option is not available. Go to view and then show hidden devices.<br>
+2. Check the port, here it's COM7 <br>
+  <img width="571" alt="device manager" src="https://user-images.githubusercontent.com/114259992/195964556-fe7a210d-5fac-459d-a794-307248509ee9.png"> <br>
+3. Now we will run the code through putty so that we can see the output in the terminal. So we need to change the serial line according to our device manager. Here it's COM7 <br>
+<img width="334" alt="putty" src="https://user-images.githubusercontent.com/114259992/195964959-4f2b02ab-8ae7-4b5a-b133-01005ae7f6c4.png">
+
+5. You can see the output **Hello World** as follows:  <br>
     
 ### Quirks encountered:
 I first tried to install WSL, I even referred to Arnav Ganfhu work. But I was getting an error while installing WSL. The first error I got while installing was This action requires elevation. That can be resolved by using Command Prompt at the administrative level. Then I got a new error. I followed a few links to try to resolve it like:               
